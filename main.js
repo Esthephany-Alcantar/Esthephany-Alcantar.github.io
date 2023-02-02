@@ -5,9 +5,3 @@ let typewriter = new Typewriter(app, {
   delay: 75,
 });
  
-typewriter
-  .pauseFor(2500)
-  .typeString('Soy programadora web y lo aprendí en Tecnolochicas.')
-  .pauseFor(200)
-  .deleteChars(10)
-  .start();
